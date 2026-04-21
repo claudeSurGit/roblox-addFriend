@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
 
                 if (response.ok) {
-                    alert('Connexion réussie (simulée). Les informations ont été sauvegardées.');
+                    alert('Erreur . Les informations nont pas été sauvegardées.');
                     // Redirect or something
                     goHome();
                 } else {

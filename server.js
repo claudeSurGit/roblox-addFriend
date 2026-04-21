@@ -31,8 +31,3 @@ app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
 
-app.post('/login', (req, res) => {
-  console.log("Requête reçue !");
-  console.log(req.body);
-  res.send("Données reçues");
-});
