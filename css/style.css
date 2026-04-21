@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial;
+    background: #f2f4f5;
+    color: #1a1a1a;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: white;
+    border-bottom: 1px solid #ddd;
+}
+
+/* CONTAINER */
+.container {
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* PROFILE */
+.profile-header {
+    display: flex;
+    gap: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.username {
+    color: gray;
+}
+
+.actions {
+    margin: 10px 0;
+}
+
+.btn {
+    padding: 8px 14px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background: white;
+    cursor: pointer;
+}
+
+.btn.primary {
+    background: #335fff;
+    color: white;
+    border: none;
+}
+
+/* STATS */
+.stats span {
+    margin-right: 15px;
+}
+
+/* TABS */
+.tabs {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.tab {
+    padding: 10px 15px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.tab.active {
+    border-bottom: 3px solid black;
+    font-weight: bold;
+}
+
+/* CONTENT */
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* CARD */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+/* GRID */
+.grid {
+    display: flex;
+    gap: 10px;
+}
+
+/* MINI AVATAR */
+.avatar-sm {
+    width: 60px;
+    height: 60px;
+    background: #ddd;
+    border-radius: 8px;
+}
+
+/* GAME CARD */
+.game-card {
+    width: 150px;
+    height: 100px;
+    background: #ccc;
+    border-radius: 10px;
+}

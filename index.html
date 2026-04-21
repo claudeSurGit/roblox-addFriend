@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Roblox Profile Clone</title>
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="nav-left">Roblox</div>
+    <div class="nav-right">
+        <input type="text" placeholder="Rechercher">
+    </div>
+</header>
+
+<main class="container">
+
+    <!-- PROFILE HEADER -->
+    <section class="profile-header">
+        <img src="https://via.placeholder.com/150" class="avatar">
+
+        <div class="profile-info">
+            <h2>NomUtilisateur</h2>
+            <p class="username">@pseudo</p>
+
+            <div class="actions">
+                <button class="btn primary" onclick="goLogin()">Ajouter ami</button>
+                <button class="btn" onclick="goLogin()">Suivre</button>
+                <button class="btn" onclick="goLogin()">Se connecter</button>
+            </div>
+
+            <div class="stats">
+                <span><b>120</b> Amis</span>
+                <span><b>500</b> Followers</span>
+                <span><b>80</b> Following</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- TABS -->
+    <div class="tabs">
+        <button class="tab active" onclick="switchTab('about', this)">À propos</button>
+        <button class="tab" onclick="switchTab('games', this)">Créations</button>
+    </div>
+
+    <!-- TAB CONTENT -->
+    <section id="about" class="tab-content active">
+        <div class="card">
+            <h3>Description</h3>
+            <p>Bienvenue sur mon profil Roblox !</p>
+        </div>
+
+        <div class="card">
+            <h3>Amis</h3>
+            <div class="grid">
+                <div class="avatar-sm"></div>
+                <div class="avatar-sm"></div>
+                <div class="avatar-sm"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="games" class="tab-content">
+        <div class="card">
+            <h3>Expériences</h3>
+            <div class="grid">
+                <div class="game-card"></div>
+                <div class="game-card"></div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<script src="./js/script.js"></script>
+</body>
+</html>
